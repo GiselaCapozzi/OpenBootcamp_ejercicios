@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 227, 211);
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Pacifico', cursive;;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 10px;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+img {
+  width: 300px;
+  height: 250;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+#paisaje {
+  z-index: 2;
+  position: fixed;
+  left: 40px;
+  margin-top: 170px;
+  background-color: transparent;
+  color: #f034a2;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
