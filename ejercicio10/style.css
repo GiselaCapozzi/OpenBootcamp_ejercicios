@@ -1,0 +1,8 @@
+.row div {
+  margin: 16px;
+}
+
+.col {
+  background-color: rgb(255, 225, 127);
+  margin: 25px 15px;
+}
