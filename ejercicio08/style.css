@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(194, 196, 199);
+}
+
+.btn-modern {
+  border: none;
+  padding: 10px 10px;
+  background-color: turquoise;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+.btn-modern:hover {
+  animation: traslacion .4s;
+}
+
+@keyframes traslacion {
+  0% {
+    border: none;
+    padding: 10px 10px;
+    background-color: turquoise;
+    font-weight: 600;
+    border-radius: 7px;
+  }
+
+  100% {
+    transform: translateY(-5px);
+    box-shadow: 0 0px 7px crimson;
+    background-color: #9bf3f3;
+    cursor: pointer;
+    color: #813a88;
+  }
+}
