@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio01",
+  "version": "1.0.0",
+  "description": "Primer ejercicio con Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gisela Capozzi",
+  "license": "ISC"
+}
