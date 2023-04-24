@@ -1,29 +1,31 @@
 // Factorial for
 
 let total = 1;
-let num = 5;
+let num = 10;
 
-/* for (let i = 1; i <= num; i++) {
-  console.log(total = total * i);
-} */
+for (let i = 1; i <= num; i++) {
+  total = total * i;
+}
+console.log(total);
 
 // Factorial while
 let j = 1;
-let num2 = 7;
+let num2 = 10;
 let total2 = 1;
-/* while (j <= num2) {
-  console.log(total2 = total2 * j)
+while (j <= num2) {
+  total2 = total2 * j;
   j++
-} */
+}
+console.log(total2);
 
 // Factorial con break
 let total3 = 1;
-let num3 = 3;
+let num3 = 10;
 
 for (let k = 1; k <= num; k++) {
-  if (k >= 24) {
+  if (k >= 7) {
     break;
   }
   total3 = total3 * k
-  console.log(total3)
 }
+console.log(total3)
